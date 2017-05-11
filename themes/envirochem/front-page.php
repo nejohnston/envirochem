@@ -6,8 +6,8 @@
  */
 
 get_header(); ?>
-<section>
-    <div class="hero-image">
-    hello
+<section class="hero-image">
+    <div>
+        <h1>envirochem</h1>
     </div>
 </section>
