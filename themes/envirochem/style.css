@@ -1,7 +1,7 @@
 /*!
-Theme Name: envirochem
+Theme Name: RED Starter Theme
 Theme URI: http://underscores.me/
-Author: Nicholas Johnston
+Author: RED Academy
 Author URI: http://www.redacademy.com
 Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
@@ -656,3 +656,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/*--------------------------------------------------------------
+# Front-Page
+--------------------------------------------------------------*/
+.hero-image {
+  background-image: url("../../assets/images/ec-hero.jpg");
+  height: 100vh;
+  background-size: cover; }
