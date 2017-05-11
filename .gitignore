@@ -34,7 +34,7 @@ node_modules/
 # Ignore everything in "plugins" except certain plugins. #
 # ====================================================== #
 
-plugins/*
+!plugins/*
 !plugins/envirochem-functionality/
 !plugins/business-hours-widget/
 
