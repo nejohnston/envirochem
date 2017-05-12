@@ -21,7 +21,10 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
-			<div class="logo"></div>
+			<div class="logo">
+				<h1 class="logo-part-enviro">enviro</h1>
+				<h1 class="logo-part-chem">chem</h1>
+			</div>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
