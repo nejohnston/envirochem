@@ -25,6 +25,7 @@
 				<h1 class="logo-part-enviro">enviro</h1>
 				<h1 class="logo-part-chem">chem</h1>
 			</div>
+			<? wp_nav_menu() ?>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">

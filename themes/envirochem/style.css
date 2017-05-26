@@ -664,3 +664,12 @@ object {
   background: url("../../assets/images/ec-hero.jpg") no-repeat;
   height: 100vh;
   background-size: cover; }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.site-header .logo {
+  color: #fff; }
+
+.site-header h1 {
+  color: #fff; }
