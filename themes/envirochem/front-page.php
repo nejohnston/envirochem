@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<section class="hero-image">
-    <div>
+<section class="hero-wrapper">
+    <div class="hero-image">
     </div>
 </section>
