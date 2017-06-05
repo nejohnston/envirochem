@@ -3,7 +3,9 @@
 --------------------------------------------------------------*/
 
 .home {
-    background: url('../../assets/images/ec-hero.jpg') no-repeat;
-    height: 100vh;
-    background-size: cover;
+    .hero-image {
+        background: url('../../assets/images/ec-hero.jpg') no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
 }
