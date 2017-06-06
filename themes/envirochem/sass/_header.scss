@@ -5,11 +5,27 @@
     position: fixed;
     z-index: 2;
     height: 50px;
-    width: 100%;
+    .header-wrapper {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        color: $color__text;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Titillium Web', sans-serif;
+    }
     .fa-tree {
-        font-size: 45px;
-        color: #fff;
+        font-size: 2rem;
+        width: auto;
+        color: $color__text;
         -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 2px;
+    }
+    .menu-wrapper {
+        font-size: 20px;
+        list-style-type: none;
     }
 }

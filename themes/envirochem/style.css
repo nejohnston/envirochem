@@ -310,15 +310,6 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
-  margin: 0 0 1.5rem 3rem; }
-
-ul {
-  list-style: disc; }
-
-ol {
-  list-style: decimal; }
-
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -409,11 +400,11 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #fff; }
   a:visited {
-    color: purple; }
+    color: #fff; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #f0e4d1; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -430,30 +421,19 @@ a {
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5rem;
-      left: -999rem;
-      z-index: 99999; }
-      .main-navigation ul ul ul {
-        left: -999rem;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul,
-      .main-navigation ul ul li.focus > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul,
-    .main-navigation ul li.focus > ul {
-      left: auto; }
-  .main-navigation li {
-    float: left;
-    position: relative; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
+    .main-navigation ul a {
+      width: 200px; }
+  .main-navigation li:hover > ul,
+  .main-navigation li.focus > ul {
+    left: auto; }
+
+li {
+  float: left;
+  position: relative; }
+
+a {
+  display: block;
+  text-decoration: none; }
 
 /* Small menu. */
 .menu-toggle,
@@ -530,7 +510,7 @@ a {
 
 .aligncenter {
   clear: both;
-  display: block;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -615,7 +595,7 @@ object {
   margin-bottom: 1.5rem;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
-    display: block;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto; }
   .wp-caption .wp-caption-text {
@@ -686,11 +666,23 @@ object {
 .site-header {
   position: fixed;
   z-index: 2;
-  height: 50px;
-  width: 100%; }
+  height: 50px; }
+  .site-header .header-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif; }
   .site-header .fa-tree {
-    font-size: 45px;
+    font-size: 2rem;
+    width: auto;
     color: #fff;
     -webkit-text-fill-color: transparent;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px; }
+  .site-header .menu-wrapper {
+    font-size: 20px;
+    list-style-type: none; }
