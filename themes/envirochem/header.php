@@ -21,7 +21,7 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
-				<i class="fa fa-tree"></i>
+				<span>E</span><i class="fa fa-tree"></i><span>C</span>
 			<? wp_nav_menu() ?>
 			</header><!-- #masthead -->
 

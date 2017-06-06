@@ -693,4 +693,4 @@ object {
     color: #fff;
     -webkit-text-fill-color: transparent;
     /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 3px; }
+    -webkit-text-stroke-width: 2px; }
