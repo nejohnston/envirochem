@@ -3,16 +3,13 @@
 --------------------------------------------------------------*/
 .site-header {
     position: fixed;
-    .logo {
+    z-index: 2;
+    height: 50px;
+    width: 100%;
+    .fa-tree {
+        font-size: 45px;
         color: #fff;
-    }
-    h1 {
-        color: $color__text;
-        .logo-part-enviro {
-
-        }
-        .logo-part-chem {
-
-        }
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 3px;
     }
 }
