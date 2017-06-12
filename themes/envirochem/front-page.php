@@ -10,3 +10,4 @@ get_header(); ?>
     <div class="hero-image">
     </div>
 </section>
+<?php get_footer(); ?>
