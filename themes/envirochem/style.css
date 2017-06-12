@@ -508,9 +508,9 @@ a {
   float: right;
   margin-left: 1.5rem; }
 
-.aligncenter {
+.align-center {
   clear: both;
-  max-width: 1280px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -595,7 +595,7 @@ object {
   margin-bottom: 1.5rem;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
-    max-width: 1280px;
+    max-width: 1120px;
     margin-left: auto;
     margin-right: auto; }
   .wp-caption .wp-caption-text {
@@ -692,8 +692,7 @@ object {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url(../../assets/images/dark-woods.png);
-  background-size: 512px, 512px; }
+  background: url(../../assets/images/dark-woods.png); }
 
 .footer-info {
   display: -ms-flexbox;

@@ -9,7 +9,7 @@
 <!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="container footer-info">
+			<div class="align-center footer-info">
 				<div class="footer-block-item">
 					<h3 class="footer-header">Contact Info</h3>
 					<p><i class="fa fa-envelope"></i><a class="footer-link" href="mailto: response@envirochem.com">response@envirochem.com</a></p>
