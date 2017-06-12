@@ -688,8 +688,11 @@ object {
     font-size: 20px;
     list-style-type: none; }
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 .site-footer {
-  background: url(../../images/dark-wood@2x.png);
+  background: url(../../assets/images/dark-woods.png);
   background-size: 512px, 512px; }
 
 .footer-info {
@@ -711,12 +714,12 @@ object {
   margin-top: 1rem; }
 
 .footer-header {
-  color: #d99054; }
+  color: #fff; }
 
 .copyright {
   font-family: 'Novecento Web', sans-serif;
   text-align: center;
-  color: white;
+  color: #fff;
   margin-bottom: 0;
   padding-bottom: .75rem;
   font-size: 1rem; }
