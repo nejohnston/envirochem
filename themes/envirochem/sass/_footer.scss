@@ -4,6 +4,13 @@
 
 .site-footer {
     background: url(../../assets/images/dark-woods.png);
+    .fa {
+        margin-right: 1rem;
+    }
+    .social-media-icons {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .footer-info {
     display: flex;

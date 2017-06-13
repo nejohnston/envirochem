@@ -14,7 +14,7 @@
 					<h3 class="footer-header">Contact Info</h3>
 					<p><i class="fa fa-envelope"></i><a class="footer-link" href="mailto: response@envirochem.com">response@envirochem.com</a></p>
 					<p><i class="fa fa-phone"></i><a class="footer-link" href="tel:6049860233">604-986-0233</a></p>
-					<p><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-pinterest"></i>
+					<span><i class="fa fa-twitter"></i><i class="fa fa-facebook"></i><i class="fa fa-pinterest"></i></span>
 					</div>
 					<div class="footer-block-item">
 					<h3 class="footer-header">Business Hours</h3>

@@ -682,14 +682,22 @@ object {
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px; }
   .site-header .menu-wrapper {
-    font-size: 20px;
-    list-style-type: none; }
+    font-size: 20px; }
+    .site-header .menu-wrapper .menu-item {
+      list-style: none; }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
   background: url(../../assets/images/dark-woods.png); }
+  .site-footer .fa {
+    margin-right: 1rem; }
+  .site-footer .social-media-icons {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
 
 .footer-info {
   display: -ms-flexbox;
