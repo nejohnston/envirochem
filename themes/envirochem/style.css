@@ -421,8 +421,6 @@ a {
     list-style: none;
     margin: 0;
     padding-left: 0; }
-    .main-navigation ul a {
-      width: 200px; }
   .main-navigation li:hover > ul,
   .main-navigation li.focus > ul {
     left: auto; }
@@ -432,7 +430,6 @@ li {
   position: relative; }
 
 a {
-  display: block;
   text-decoration: none; }
 
 /* Small menu. */
