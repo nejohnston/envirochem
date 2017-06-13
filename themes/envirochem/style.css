@@ -693,11 +693,6 @@ object {
   background: url(../../assets/images/dark-woods.png); }
   .site-footer .fa {
     margin-right: 1rem; }
-  .site-footer .social-media-icons {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
 
 .footer-info {
   display: -ms-flexbox;
