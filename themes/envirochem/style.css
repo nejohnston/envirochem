@@ -693,35 +693,28 @@ object {
   background: url(../../assets/images/dark-woods.png); }
   .site-footer .fa {
     margin-right: 1rem; }
-
-.footer-info {
-  display: -ms-flexbox;
-  display: flex; }
-
-.footer-block-item {
-  margin: 3rem 0rem;
-  padding-right: 1.5rem;
-  width: 25%;
-  color: #fff; }
-
-.footer-block-item {
-  margin: 3rem 0rem;
-  width: 50%; }
-
-.text-logo {
-  text-align: right;
-  margin-top: 1rem; }
-
-.footer-header {
-  color: #fff; }
-
-.copyright {
-  font-family: 'Novecento Web', sans-serif;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 0;
-  padding-bottom: .75rem;
-  font-size: 1rem; }
-
-a.footer-link {
-  color: #fff; }
+  .site-footer .footer-info {
+    display: -ms-flexbox;
+    display: flex; }
+  .site-footer .footer-block-item {
+    margin: 3rem 0rem;
+    padding-right: 1.5rem;
+    width: 25%;
+    color: #fff; }
+  .site-footer .footer-block-item {
+    margin: 3rem 0rem;
+    width: 50%; }
+  .site-footer .text-logo {
+    text-align: right;
+    margin-top: 1rem; }
+  .site-footer .footer-header {
+    color: #fff; }
+  .site-footer .copyright {
+    font-family: 'Novecento Web', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: .75rem;
+    font-size: 1rem; }
+  .site-footer a.footer-link {
+    color: #fff; }
