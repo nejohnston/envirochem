@@ -9,7 +9,7 @@ get_header(); ?>
 <section class="hero-wrapper">
     <div class="hero-image">
     <div class='centered-logo-wrapper'>
-    <div class='centered-logo'><p class='logo-top-text'>EnviroChem</p><p class='logo-bottom-text'>S o l u t i o n s</p></div>
+    <div class='centered-logo'><span class='logo-top-text'>EnviroChem</span><span class='logo-bottom-text'>S o l u t i o n s</span></div>
     </div>
     </div>
 </section>
