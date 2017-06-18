@@ -47,14 +47,17 @@
                 margin-right: auto;
                 text-align: justify;
                 .logo-top-text {
-                    display: block;
                     font-size: 2.5rem;
                     font-weight: 300;
+                    &:after {
+                    content: "";
+                    display: inline-block;
+                    width: 100%;
+                    }
                 }
                 .logo-bottom-text {
                     font-size: 0.8rem;
-                    padding-left: 1rem;
-                    padding-right: 1rem;
+                    align-self: center;
                     &:after {
                     content: "";
                     display: inline-block;
