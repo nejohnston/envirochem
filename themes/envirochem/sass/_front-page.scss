@@ -8,9 +8,10 @@
     background: url('../../assets/images/ec-hero.jpg') no-repeat;
     position: relative;
     overflow: hidden;
+    display: flex;
     opacity: 1;
         &:before {
-        display: block;
+        display: flex;
         position: absolute;
         left: 0;
         top: 0;
@@ -28,6 +29,7 @@
         .centered-logo-wrapper {
             display: flex;
             align-self: center;
+            align-content: center;
             font-family: 'Merriweather', sans-serif;
             z-index: 4;
             border-radius: 50%;
@@ -46,22 +48,27 @@
                 margin-left: auto;
                 margin-right: auto;
                 text-align: justify;
-                .logo-top-text {
-                    font-size: 2.5rem;
-                    font-weight: 300;
-                    &:after {
-                    content: "";
-                    display: inline-block;
-                    width: 100%;
-                    }
-                }
-                .logo-bottom-text {
-                    font-size: 0.8rem;
+                width: 262px;
+                padding-top: 10px;
+                .logo-inner-wrapper {
+                    display: block;
                     align-self: center;
-                    &:after {
-                    content: "";
-                    display: inline-block;
-                    width: 100%;
+                    .logo-top-text {
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                        &after {
+                            content: '';
+                            display: inline-block;
+                            width: 100%;
+                        }
+                    }
+                    .logo-bottom-text {
+                        font-size: 0.8rem;
+                        &:after {
+                        content: "";
+                        display: inline-block;
+                        width: 100%;
+                        }
                     }
                 }
             }
