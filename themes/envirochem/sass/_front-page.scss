@@ -26,5 +26,25 @@
         -webkit-background-size: cover;
         background-size: cover;
         }
+        .centered-logo-wrapper {
+            display: flex;
+            outline: solid 5px white;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.6em;
+            height: 150px;
+            margin: 0 auto;
+            width: 300px;
+            opacity: 1;
+            margin-top: auto;
+            margin-bottom: auto;
+            box-shadow: 0 0 3pt 2pt white;
+            .centered-logo {
+                align-self: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     }
 }
