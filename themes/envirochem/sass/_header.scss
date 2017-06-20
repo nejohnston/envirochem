@@ -7,6 +7,12 @@
     z-index: 2;
     width: 100%;
     .header-wrapper {
+        max-width: 480px;
+        margin-right: auto;
+        margin-left: auto;
+        @include media($desktop){
+            max-width: $desktop;
+        }
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
