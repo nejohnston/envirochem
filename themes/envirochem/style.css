@@ -802,11 +802,13 @@ object {
     margin-top: 1rem; }
   .site-footer .footer-header {
     color: #fff;
-    font-family: 'Novocento';
+    font-family: 'Novocento', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px; }
   .site-footer .copyright {
-    font-family: 'Novecento', sans-serif;
+    font-family: 'Novocento', sans-serif;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
@@ -815,6 +817,9 @@ object {
     font-size: 0.8rem; }
   .site-footer a.footer-link {
     color: #fff; }
+  .site-footer p {
+    font-family: 'Novocento', sans-serif;
+    margin-bottom: 1rem; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
