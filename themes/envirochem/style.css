@@ -682,72 +682,73 @@ object {
 # Front-Page
 --------------------------------------------------------------*/
 .home .hero-image {
+  display: -ms-flexbox;
+  display: flex;
+  background-size: contain;
   height: 100vh;
   background: url("../../assets/images/ec-hero.jpg") no-repeat;
   position: relative;
-  overflow: hidden;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 1; }
+  overflow: hidden; }
   .home .hero-image:before {
-    display: -ms-flexbox;
-    display: flex;
     position: absolute;
     left: 0;
     top: 0;
+    background-image: #000;
+    opacity: .6;
     width: 100%;
     height: 100%;
     z-index: 1;
     background-position: 50% 0;
     -ms-background-size: cover;
     background-size: cover; }
-  .home .hero-image .centered-logo-wrapper {
-    display: -ms-flexbox;
-    display: flex;
+
+.home .centered-logo-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Merriweather', sans-serif;
+  z-index: 4;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.6em;
+  height: 125px;
+  margin: 0 auto;
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: inset 0 0 0 5pt white;
+  text-transform: uppercase; }
+  .home .centered-logo-wrapper .centered-logo {
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    font-family: 'Merriweather', sans-serif;
-    z-index: 4;
-    border-radius: 50%;
-    color: white;
-    font-size: 1.6em;
-    height: 125px;
-    margin: 0 auto;
-    width: 400px;
-    margin-top: auto;
-    margin-bottom: auto;
-    box-shadow: inset 0 0 0 5pt white;
-    text-transform: uppercase; }
-    .home .hero-image .centered-logo-wrapper .centered-logo {
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 262px;
+    padding-top: 10px; }
+    .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper {
+      display: block;
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
-          align-self: center;
-      z-index: 2;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: justify;
-      width: 262px;
-      padding-top: 10px; }
-      .home .hero-image .centered-logo-wrapper .centered-logo .logo-inner-wrapper {
-        display: block;
-        -ms-flex-item-align: center;
-            -ms-grid-row-align: center;
-            align-self: center; }
-        .home .hero-image .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-top-text {
-          font-size: 2.5rem;
-          font-weight: 300; }
-          .home .hero-image .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-top-textafter {
-            content: '';
-            display: inline-block;
-            width: 100%; }
-        .home .hero-image .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-bottom-text {
-          font-size: 0.8rem; }
-          .home .hero-image .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-bottom-text:after {
-            content: "";
-            display: inline-block;
-            width: 100%; }
+          align-self: center; }
+      .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-top-text {
+        font-size: 2.5rem;
+        font-weight: 300; }
+        .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-top-textafter {
+          content: '';
+          display: inline-block;
+          width: 100%; }
+      .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-bottom-text {
+        font-size: 0.8rem; }
+        .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-bottom-text:after {
+          content: "";
+          display: inline-block;
+          width: 100%; }
 
 /*--------------------------------------------------------------
 # Header
