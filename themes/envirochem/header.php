@@ -25,9 +25,8 @@
 					<div class='logo'>
 						<span>E</span><i class='fa fa-tree'></i><span>C</span>
 					</div>
-					<div id="site-navigation" class="main-navigation" role="navigation">
-							<button class="menu-toggle">Menu</button>
-							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+					<div class='menu-wrapper'>
+						<? wp_nav_menu() ?>
 					</div>
 				</div>
 			</div>
