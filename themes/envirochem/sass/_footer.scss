@@ -9,7 +9,10 @@
     }
     .footer-info {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        @include media($tablet) {
+            flex-direction: row;
+        }
     }
     .footer-block-item {
         margin: 3rem 0rem;

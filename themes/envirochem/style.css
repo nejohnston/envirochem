@@ -789,8 +789,12 @@ object {
   .site-footer .footer-info {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between; }
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    @media only screen and (min-width: 600px) {
+      .site-footer .footer-info {
+        -ms-flex-direction: row;
+            flex-direction: row; } }
   .site-footer .footer-block-item {
     margin: 3rem 0rem;
     padding-right: 1.5rem;
