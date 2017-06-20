@@ -10,6 +10,9 @@
         max-width: 480px;
         margin-right: auto;
         margin-left: auto;
+        @include media($tablet){
+            max-width: $tablet;
+        }
         @include media($desktop){
             max-width: $desktop;
         }

@@ -770,6 +770,9 @@ object {
     font-size: 40px;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif; }
+    @media only screen and (min-width: 600px) {
+      .site-header .header-wrapper {
+        max-width: 600px; } }
     @media only screen and (min-width: 1024px) {
       .site-header .header-wrapper {
         max-width: 1024px; } }
@@ -796,13 +799,7 @@ object {
     margin-right: 1rem; }
   .site-footer .footer-info {
     display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column; }
-    @media only screen and (min-width: 600px) {
-      .site-footer .footer-info {
-        -ms-flex-direction: row;
-            flex-direction: row; } }
+    display: flex; }
   .site-footer .footer-block-item {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -852,6 +849,7 @@ object {
         color: white;
         font-size: 1.6em;
         height: 125px;
+        width: 400px;
         margin: 0 auto;
         margin-top: auto;
         margin-bottom: auto;
