@@ -783,6 +783,7 @@ object {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
+  display: block;
   background: url(../../assets/images/dark-woods.png); }
   .site-footer .fa {
     margin-right: 1rem; }
