@@ -28,7 +28,7 @@
                     			<h2 class='logo-bottom-text'>S o l u t i o n s</h1>
   							</div>
 						</div>
-					</div>
+					</div
 			</div><!-- .site-info -->
 			<div class="copyright">
 				<p>Copyright &#169 2017 Envirochem</p>
