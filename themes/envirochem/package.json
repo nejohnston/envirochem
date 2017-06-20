@@ -1,7 +1,7 @@
 {
-  "name": "redstarter",
+  "name": "envirochem",
   "version": "1.0.0",
-  "description": "A starter theme for RED students, based on Underscores.",
+  "description": "A custome theme designed for Envirochem.",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
