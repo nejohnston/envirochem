@@ -759,35 +759,35 @@ object {
   z-index: 2;
   width: 100%;
   /*
- * Made by Erik Terwan
- * 24th of November 2015
- * All rights reserved
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
+* Made by Erik Terwan
+* 24th of November 2015
+* All rights reserved
+*
+*
+* If you are thinking of using this in
+* production code, beware of the browser
+* prefixes.
+*/
   /*
- * Just a quick hamburger
- */
+* Just a quick hamburger
+*/
   /*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+* Transform all the slices of hamburger
+* into a crossmark.
+*/
   /*
- * But let's hide the middle one.
- */
+* But let's hide the middle one.
+*/
   /*
- * Ohyeah and the last one should go the other direction
- */
+* Ohyeah and the last one should go the other direction
+*/
   /*
- * Make this absolute positioned
- * at the top left of the screen
- */
+* Make this absolute positioned
+* at the top left of the screen
+*/
   /*
- * And let's fade it in from the left
- */ }
+* And let's fade it in from the left
+*/ }
   .site-header .header-wrapper {
     max-width: 480px;
     margin-right: auto;
@@ -832,8 +832,8 @@ object {
      -ms-user-select: none;
          user-select: none; }
   .site-header #menuToggle input {
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    position: absolute;
     width: 40px;
     height: 32px;
     cursor: pointer;
@@ -844,6 +844,7 @@ object {
     -webkit-touch-callout: none; }
   .site-header #menuToggle span {
     display: block;
+    position: relative;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
@@ -875,11 +876,11 @@ object {
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
-    transform: translate(100%, 0);
+    transform: translate(150%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
   .site-header #menu li {
     padding: 10px 0;
-    font-size: 22px; }
+    font-size: 2rem; }
   .site-header #menuToggle input:checked ~ ul {
     transform: scale(1, 1);
     opacity: 1; }
