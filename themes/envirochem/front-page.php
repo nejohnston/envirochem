@@ -12,7 +12,8 @@ get_header(); ?>
             <div class='centered-logo'>
                 <div class='logo-inner-wrapper'>
                     <h1 class='logo-top-text'>EnviroChem</h1>
-                    <h2 class='logo-bottom-text'>s e r v i c e s</h1>
+                    <h2 class='logo-bottom-text'>s e r v i c e s</h2>
+                    <h2 class='logo-bottom-text-inc'>inc.</h2>
                 </div>
             </div>
         </div>

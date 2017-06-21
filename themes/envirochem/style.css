@@ -749,6 +749,8 @@ object {
           content: "";
           display: inline-block;
           width: 100%; }
+      .home .centered-logo-wrapper .centered-logo .logo-inner-wrapper .logo-bottom-text-inc {
+        text-align: right; }
 
 .home .first-header {
   text-align: center;
