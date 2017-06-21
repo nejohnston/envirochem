@@ -3,9 +3,14 @@
 --------------------------------------------------------------*/
 .site-header {
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    color: $color__enviro;
     z-index: 2;
     width: 100%;
+    span {
+        color: $color__enviro;
+
+    }
     .header-wrapper {
         max-width: 480px;
         margin-right: auto;
@@ -30,7 +35,7 @@
     .fa-tree {
         font-size: 2rem;
         width: auto;
-        color: $color__text;
+        color: $color__enviro;
         -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 2px;
     }
@@ -99,8 +104,7 @@ z-index: 2; /* and place it over the hamburger */
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
-
-    background: #fff;
+    background: $color__enviro;
     border-radius: 3px;
 
     z-index: 1;
@@ -158,19 +162,20 @@ transform: rotate(-45deg) translate(0, -1px);
 */
 #menu
 {
+
 position: absolute;
 width: 300px;
 padding: 50px;
 
-background: #ededed;
+background: #fff;
 list-style-type: none;
 -webkit-font-smoothing: antialiased;
 /* to stop flickering of text in safari */
 
-transform-origin: 0% 0%;
+transform-origin: 100% 100%;
 transform: translate(150%, 0);
 
-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+transition: transform 0.5s cubic-bezier(0.9,-0.5,0.5,1.0);
 }
 
 #menu li

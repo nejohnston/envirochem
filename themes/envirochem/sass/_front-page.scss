@@ -6,7 +6,7 @@
     .hero-image {
         display: flex;
         background-size: contain;
-        height: 100vh;
+        height: 50vh;
         background: url('../../assets/images/ec-hero.jpg') no-repeat;
         position: relative;
         overflow: hidden;
@@ -74,4 +74,10 @@
                 }
             }
         }
+        .first-header {
+            text-align: center;
+            font-size: 3rem;
+            width: 33%;
+        }
+
     }
