@@ -28,7 +28,7 @@
 <!--    Made by Erik Terwan    -->
 <!--   24th of November 2015   -->
 <!--    All rights reserved    -->
-<nav role="navigation">
+<div role="navigation">
   <div id="menuToggle">
     <!--
     A fake / hidden checkbox is used as click reciever,
@@ -54,8 +54,8 @@
 						<? wp_nav_menu() ?>
 
     </ul>
-  </div>
-</nav>
+</div>
+</div>
 			</div>
 		</header><!-- #masthead -->
 
